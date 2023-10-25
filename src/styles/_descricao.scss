@@ -1,0 +1,27 @@
+.descricao{
+    &__ul{
+        &__item1{
+            display: flex;
+            &__img1{
+                width: 300px;
+            }
+            &__text{
+                text-align: center;
+                padding-top: 10vw;
+                font-size: 25px;
+            }
+        }
+        &__item2{
+            display: flex;
+            flex-direction: row-reverse;
+            &__img2{
+                width: 450px;
+            }
+            &__text{
+                text-align: center;
+                padding-top: 10vw;
+                font-size: 25px;
+            }
+        }
+        }
+    }
